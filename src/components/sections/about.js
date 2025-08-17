@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['PyTorch', 'CNNs', 'LLMs', 'RNNs', 'PointNet++', 'ResNet'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi, I’m Paras, a machine learning engineer specializing in AI and ML. I’m particularly
+              passionate about working with large language models (LLMs) and convolutional neural
+              networks (CNNs). I enjoy diving into cutting-edge architectures, experimenting with
+              new techniques, and pushing the limits of what these models can do. Exploring
+              innovative neural network designs and applying them to real-world problems keeps me
+              motivated and constantly learning.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Today, I’ve gained valuable experience as an AI/ML intern at{' '}
+              <a href="https://depusa.com/">Detroit Engineered Products</a> , where I worked
+              extensively with neural networks and point cloud data, focusing on semantic
+              segmentation. This role allowed me to deepen my expertise in machine learning and
+              develop practical skills in applying advanced AI techniques to real-world problems.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I also recently started a{' '}
+              <a href="https://www.youtube.com/@PyTorchParry">YouTube Channel</a> where I teach how
+              to build machine learning models using PyTorch. Through step-by-step tutorials, I
+              break down complex concepts to help others learn how to design and train neural
+              networks effectively.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
